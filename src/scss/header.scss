@@ -1,0 +1,47 @@
+
+
+    header {
+        padding-top: 56px;
+        padding-bottom: 80px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .logo {
+        display: flex;
+        align-items: center;
+    }
+
+    .logo img {
+        margin-right: 12px;
+    }
+
+    .logo span {
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 1.25;
+        color: #233348;
+    }
+
+    .nav-list { 
+        display: flex;
+        justify-content: space-between;
+            
+     li {
+        margin-right:40px ;
+       }
+
+    li:last-of-type {
+        margin-right: 0;
+    }
+    a {
+        font-size: 18px;
+        line-height: 1.28;
+        color: #233348;
+    }
+    }
+
+    .Home {
+        font-weight: 700;
+    }

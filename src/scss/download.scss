@@ -1,0 +1,46 @@
+.download {
+    margin-bottom: 266px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+ h2 {
+    font-weight: 700;
+    font-size: 36px;
+    font-style: normal;
+    line-height: 1.56;
+    width: 254px;
+    }
+ h2::after {
+    content: ' ';
+    display: block;
+    width: 56px;
+    height: 2px;
+    background-color: black;
+   
+    margin-top: 30px;
+    margin-bottom: 31px;
+   }
+
+ p {
+    font-weight: 300;
+    font-size: 18px;
+    font-style: normal;
+    line-height: 1.67;
+    color: #7D7987;
+    margin-bottom: 61px;
+    width: 420px;
+ }
+}
+
+    .flex {
+        width: 120px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding-right: 21px;
+      
+    }
+    .download-img {
+        margin-left: 71px;
+       }
